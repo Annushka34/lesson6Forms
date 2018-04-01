@@ -48,7 +48,7 @@ namespace Lesson7WebBrowser
             }
             else
             {
-
+                //git test
                 Rectangle r = tabControl1.GetTabRect(tabControl1.SelectedIndex);
                 Rectangle close = new Rectangle(r.X + r.Width - 12, r.Y + 2, 10, 10);
                 if (close.Contains(e.Location))
